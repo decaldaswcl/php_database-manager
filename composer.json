@@ -1,0 +1,21 @@
+{
+    "name": "decaldaswcl/php_database-manager",
+    "description": "Set of SQL language commands that are used to retrieve, add, remove and modify information within a database",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "decaldaswcl\\DatabaseManager\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Willian de Caldas Leite",
+            "email": "decaldaswcl@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=7.3"
+    }
+}
